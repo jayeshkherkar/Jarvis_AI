@@ -2,7 +2,6 @@ import cohere
 from rich import print 
 from dotenv import load_dotenv
 import os 
-
 #Load environment variables from the .env files
 #env_vars = dotenv_values(".env")
 load_dotenv()
@@ -38,7 +37,6 @@ You will decide whether a query is a 'general' query, a 'realtime' query, or is 
 *** If the query is asking to perform multiple tasks like 'open facebook, telegram and close whatsapp' respond with 'open facebook, open telegram, close whatsapp' ***
 *** If the user is saying goodbye or wants to end the conversation like 'bye jarvis.' respond with 'exit'.***
 *** Respond with 'general (query)' if you can't decide the kind of query or if a query is asking to perform a task which is not mentioned above. ***
-
 """
 
 # Define a chat history with predefined user -chatbot interactions for context.
