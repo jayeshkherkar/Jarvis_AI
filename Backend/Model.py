@@ -91,11 +91,11 @@ def FirstLayerDMM(prompt: str = "test"):
     else:
         return response   #Return the filtered respones.
     
-    #Entry point for the script 
-    if __name__== "__main__":
-        # Continuously prompt the user for input and process it.
-        while True:
-            print(FirstLayerDMM(input(">>> ")))  # Print the categorized response.
+#Entry point for the script 
+if __name__== "__main__":
+    # Continuously prompt the user for input and process it.
+    while True:
+        print(FirstLayerDMM(input(">>> ")))  # Print the categorized response.
     
          
     
